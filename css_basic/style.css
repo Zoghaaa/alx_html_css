@@ -1,11 +1,63 @@
 /* Make the body a flex container and arrange items in a column */
-body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    height: 100vh; /* Ensures it takes up the full height */
-}
+
+    body {
+        background-color: #f0f0f0;
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #4CAF50;
+        padding: 10px;
+    }
+    
+    header ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    header li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    header a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    header a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Style the logo */
+    .logo {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    article h1 {
+        color: #4CAF50;
+        font-size: 24px;
+    }
+    
+    article p {
+        line-height: 1.6;
+    }
+    
+    article h2 {
+        color: #333;
+        margin-top: 20px;
+    }
+    
+    article a {
+        color: #0066CC;
+    }
+    
+    article a:hover {
+        text-decoration: underline;
+    }
+      
 
 /* Make the main tag a flex container and arrange items in a row */
 main {
@@ -14,25 +66,27 @@ main {
     flex: auto; /* Ensures it resizes automatically */
 }
 
-/* Make the article take 2/3 of the main area */
-article {
-    flex: 2;
-    overflow-y: auto; /* Allows vertical scrolling if the content is too large */
-    padding: 20px;
-}
 
-/* Make the aside take 1/3 of the main area */
 aside {
-    flex: 1;
-    overflow-y: auto; /* Allows vertical scrolling if the content is too large */
-    padding: 20px;
-    background-color: #f4f4f4; /* Optional: Background color for aside */
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-left: 2px solid #ccc;
 }
 
-/* Style the header and footer */
-header, footer {
+
+footer {
     background-color: #333;
     color: white;
-    padding: 10px;
     text-align: center;
+    padding: 10px 0;
 }
+
+footer a {
+    color: #739d74;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
