@@ -1,0 +1,92 @@
+/* Make the body a flex container and arrange items in a column */
+
+    body {
+        background-color: #f0f0f0;
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #4CAF50;
+        padding: 10px;
+    }
+    
+    header ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    header li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    header a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    header a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Style the logo */
+    .logo {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    article h1 {
+        color: #4CAF50;
+        font-size: 24px;
+    }
+    
+    article p {
+        line-height: 1.6;
+    }
+    
+    article h2 {
+        color: #333;
+        margin-top: 20px;
+    }
+    
+    article a {
+        color: #0066CC;
+    }
+    
+    article a:hover {
+        text-decoration: underline;
+    }
+      
+
+/* Make the main tag a flex container and arrange items in a row */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Ensures it resizes automatically */
+}
+
+
+aside {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-left: 2px solid #ccc;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #739d74;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
