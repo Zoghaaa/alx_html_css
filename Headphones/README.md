@@ -1,44 +1,25 @@
-Implement a design from scratch
+# ALX HTML & CSS Project - Headphones Website
 
-In this project, you will implement from scratch, without any library, a web page. You will use all HTML/CSS/Accessibility/Responsive design knowledges that you learned previously.
+This project involves building a fully functional web page from scratch using HTML and CSS, following a design created by Nicolas Philippot, a UI/UX designer. The objective is to replicate the provided design as closely as possible while ensuring accessibility and responsiveness, especially for mobile screens (480px and below).
 
-You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have a fully functional web page that looks the same as the designer file.
+## Project Details
 
+- **Project Name**: Headphones Webpage
+- **Repository**: [alx_html_css](https://github.com/Zoghaaa/alx_html_css)
+- **Designer**: Nicolas Philippot
+- **Technologies Used**: HTML, CSS (no JavaScript or external frameworks like Bootstrap)
 
+### Features
+- Fully responsive layout, switching to a mobile version at 480px or less.
+- Max-width of content is 1000px, centered on the page.
+- Hover and active states for links (`#FF6565`) and buttons (opacity: 0.9).
+- Designed with accessibility best practices in mind.
 
+## Instructions for Viewing the Project
 
-This webpage has been designed by Nicolas Philippot, UI/UX designer. You can find final screens here
+### Step 1: Clone the Repository
 
-Requirements
-you are not allowed to import external CSS framework (like Bootstrap)
-you are not to use Javascript
+Clone the repository to your local machine by running the following command in your terminal:
 
-/##############################################################/
-
-# ALX HTML CSS Project
-
-## Steps to View the Results
-
-1. **Clone the Project**:
-   ```bash
-   https://github.com/Zoghaaa/alx_html_css.git
-   ```
-
-2. **Navigate to the `headphones` Folder**:
-
-   - **Option 1: Open Directly in Browser**
-     - Navigate to the `Headphones` folder and open `index.html` with your favorite browser.
-
-   - **Option 2: Use PowerShell Terminal**
-     - Open the PowerShell terminal.
-     - Change the directory to the `Headphones` folder by running:
-       ```bash
-       cd headphones
-       ```
-     - Open `index.html` with the default browser by running:
-       ```bash
-       Start-Process index.html
-       ```
-
-By following these steps, you will be able to view the results of the project in your browser.
-```
+```bash
+git clone https://github.com/Zoghaaa/alx_html_css.git
