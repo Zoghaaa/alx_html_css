@@ -21,17 +21,17 @@ you are not to use Javascript
 
 1. **Clone the Project**:
    ```bash
-   git clone git@github.com:MouloudDev/alx_html_css.git
+   https://github.com/Zoghaaa/alx_html_css.git
    ```
 
 2. **Navigate to the `headphones` Folder**:
 
    - **Option 1: Open Directly in Browser**
-     - Navigate to the `headphones` folder and open `index.html` with your favorite browser.
+     - Navigate to the `Headphones` folder and open `index.html` with your favorite browser.
 
    - **Option 2: Use PowerShell Terminal**
      - Open the PowerShell terminal.
-     - Change the directory to the `headphones` folder by running:
+     - Change the directory to the `Headphones` folder by running:
        ```bash
        cd headphones
        ```
