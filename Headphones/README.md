@@ -4,8 +4,7 @@ In this project, you will implement from scratch, without any library, a web pag
 
 You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have a fully functional web page that looks the same as the designer file.
 
-Here the final result:
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/2/60df485eb772ecbad54a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240705%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240705T190538Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b2f1f2b36bd6c8fef5eece45466ed920dda201d88eac890310947e08e5ded844
+
 
 
 This webpage has been designed by Nicolas Philippot, UI/UX designer. You can find final screens here
